@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.13">
 
   <title>DRUGon: Study protocol – DRUGon: Πρωτόκολλο μελέτης</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0b05981d0ac5678793dc75b3eb49c740.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-d5b7eec15557c3f5d275b4b2cbeabdbc.css">
   <link rel="stylesheet" href="styles.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -159,27 +159,161 @@
 <br>
 </p>
 <ul>
-<li><strong>Προσέγγιση 1:</strong> Σύγκριση υπαρχουσών και νέων μεθόδων εντοπισμού ΣΦΕ με τη χρήση δεδομένων πραγματικού κόσμου (ΔΠΚ)</li>
+<li><strong>Προσέγγιση 1:</strong><br>
+Σύγκριση υπαρχουσών και νέων μεθόδων εντοπισμού ΣΦΕ με τη χρήση δεδομένων πραγματικού κόσμου (ΔΠΚ)</li>
 </ul>
 <p><br>
 </p>
 <ul>
-<li><strong>Προσέγγιση 2:</strong> Επιβεβαίωση μεθόδων στα δεδομένα του ελληνικού οικοσυστήματος</li>
+<li><strong>Προσέγγιση 2:</strong><br>
+Επιβεβαίωση αποτελεσμάτων μεθόδων στα δεδομένα του ελληνικού οικοσυστήματος</li>
 </ul>
 </section>
-<section id="προσέγγιση-1" class="slide level2">
-<h2>Προσέγγιση 1</h2>
+<section>
+<section id="προσέγγιση-1" class="title-slide slide level1 center">
+<h1>Προσέγγιση 1</h1>
+
+</section>
+<section id="στόχοι" class="slide level2">
+<h2>Στόχοι</h2>
 <p><br>
 <br>
 </p>
 <ul>
-<li>Aναγώριση ΣΦΕ με τη χρήση ΔΠΚ</li>
+<li>Επισήμανση ΣΦΕ με τη χρήση ΔΠΚ</li>
+<li>Εφαρμογή παραδοσιακών μεθόδων στα δεδομένα μας</li>
 <li>Προσαρμογή/δημιουργία μεθόδων μηχανικής μάθησης</li>
-<li>Σύγκριση των μεθόδων αυτών με πιο παραδοσιακές προσεγγίσεις</li>
+<li>Σύγκριση μεθόδων</li>
 </ul>
-
-
 </section>
+<section id="μέθοδοι" class="slide level2">
+<h2>Μέθοδοι</h2>
+<p><br>
+</p>
+<ul>
+<li>Self-controlled case series (SCCS)</li>
+</ul>
+<p><br>
+</p>
+
+<img data-src="images/selfControlledCaseSeries.png" class="r-stretch quarto-figure-center"><p class="caption">Self-controlled case series design. Source: <em>Book of OHDSI</em>, section 12.5</p></section>
+<section id="μέθοδοι-1" class="slide level2">
+<h2>Μέθοδοι</h2>
+<p><br>
+</p>
+<ul>
+<li>Self-controlled cohort (SCC) design</li>
+</ul>
+<p><br>
+</p>
+
+<img data-src="images/selfControlledCohort.png" class="r-stretch quarto-figure-center"><p class="caption">Self-controlled cohort design. Source: <em>Book of OHDSI</em>, section 12.2</p></section>
+<section id="μέθοδοι-2" class="slide level2">
+<h2>Μέθοδοι</h2>
+<p><br>
+</p>
+<ul>
+<li>Case-control design</li>
+</ul>
+<p><br>
+</p>
+
+<img data-src="images/caseControl.png" class="r-stretch quarto-figure-center"><p class="caption">Case-control design. Source: <em>Book of OHDSI</em>, section 12.3</p></section>
+<section id="σύγκριση" class="slide level2">
+<h2>Σύγκριση</h2>
+<p><br>
+<br>
+</p>
+<ul>
+<li>Ικανότητα διαχωρισμού θετικών ελέγχων από αρνητικούς</li>
+<li>Ικανότητα έγκαιρης σήμανσης</li>
+</ul>
+</section>
+<section id="σύγκριση-διαχωρισμός" class="slide level2">
+<h2>Σύγκριση — διαχωρισμός</h2>
+<p><br>
+<br>
+</p>
+<ul>
+<li>Χρήση συνόλου αναφοράς με γνωστούς και επαρκώς τεκμηριωμένους θετικούς και αρνητικούς ελέγχους</li>
+<li>Σύνολο αναφοράς του OHDSI με 165 θετικούς και 234 αρνητικούς ελέγχους</li>
+<li>Δημιουργία συνόλου αναφοράς με βάση τα δεδομένα του νοσοκομείου</li>
+</ul>
+</section>
+<section id="σύγκριση-διαχωρισμός-1" class="slide level2">
+<h2>Σύγκριση — διαχωρισμός</h2>
+<p><br>
+<br>
+</p>
+<p>Έχουμε δεδομένα <span class="math inline">\((X,O^+,O^-)\)</span> &nbsp;όπου</p>
+<ul>
+<li><span class="math inline">\(X\in \mathbb{R}^p\)</span> &nbsp;τα χαρακτηριστικά των ασθενών</li>
+<li><span class="math inline">\(O^+\in \{0,1\}^{n_{pc}}\)</span> &nbsp;το σύνολο των θετικών ελέγχων</li>
+<li><span class="math inline">\(O^-\in \{0,1\}^{n_{nc}}\)</span> &nbsp;το σύνολο των αρνητικών ελέγχων</li>
+</ul>
+</section>
+<section id="σύγκριση-διαχωρισμός-2" class="slide level2">
+<h2>Σύγκριση — διαχωρισμός</h2>
+<p><br>
+Για τον <span class="math inline">\(k\)</span> αλγόριθμο επισήμανσης ΣΦΕ <span class="math inline">\(s_{k;o}\)</span> έχουμε</p>
+<p><span class="math display">\[
+AUC_k = \frac{1}{n_{pc}n_{nc}} \sum_{i=1}^{n_{pc}}\sum_{j=1}^{n_{nc}} \psi(s_{k;o^+_i}, s_{k;o^-_j})
+\]</span></p>
+<p><br>
+</p>
+<p><span class="math display">\[
+\psi(x, y) =
+     \begin{cases}
+       1, &amp;\quad x&gt;y \\
+       0.5, &amp;\quad x=y \\
+       0, &amp;\quad x&lt;y \\
+     \end{cases}
+\]</span></p>
+</section>
+<section id="σύγκριση-έγκαιρη-σήμανση" class="slide level2">
+<h2>Σύγκριση — έγκαιρη σήμανση</h2>
+<p><br>
+<br>
+</p>
+<ul>
+<li>Χρήση συνόλου αναφοράς που περιλαμβάνει τις ημερομηνίες αλλαγής στο φύλλο οδηγιών</li>
+<li>Επιλέγουμε χρονικό περιθώριο <span class="math inline">\(t_{\text{lag}}\)</span></li>
+</ul>
+<p><span class="math display">\[
+LAUC_k(t_{\text{lag}}) =
+\frac{1}{n_{pc}n_{nc}}
+\sum_{i=1}^{n_{pc}}\sum_{j=1}^{n_{nc}}
+\psi\Big(s_{k;o^+_i}(t_i^0-t_{\text{lag}}), s_{k;o^-_j}(t_i^0-t_{\text{lag}})\Big)
+\]</span></p>
+</section>
+<section id="σύγκριση-έγκαιρη-σήμανση-1" class="slide level2">
+<h2>Σύγκριση — έγκαιρη σήμανση</h2>
+<p><br>
+</p>
+<ul>
+<li>Το MLT2D αξιολογεί την πρωιμότητα της μεθόδου ανίχνευσης ΣΦΕ για ένα προκαθορισμένο επίπεδο ανοχής ψευδώς θετικών αποτελεσμάτων <span class="math inline">\(\tau\)</span>.</li>
+</ul>
+<p><span class="math display">\[
+MLT2D_k(\tau) =
+\frac{1}{n_{pc}}
+\sum_{i=1}^{n_{pc}}
+t_{\text{lag}}(\tau;k,o_i^+)
+\]</span></p>
+</section>
+<section id="σύγκριση-έγκαιρη-σήμανση-2" class="slide level2">
+<h2>Σύγκριση — έγκαιρη σήμανση</h2>
+<p><br>
+<br>
+</p>
+<p>όπου <span class="math inline">\(t_{\text{lag}}(\tau;k,o_i^+)\)</span> &nbsp;είναι το μεγαλύτερο <span class="math inline">\(t_{\text{lag}}\)</span> για τον θετικό έλεγχο <span class="math inline">\(o^+_i\)</span> για το οποίο</p>
+<p><span class="math display">\[
+\frac{1}{n_{nc}}
+\sum_{j=1}^{n_{nc}}
+\psi\Big( s_{k;o^+_i}(t_i^0-t_{\text{lag}}), s_{k;o^-_j}(t_i^0-t_{\text{lag}}) \Big) \geq 1 - \tau
+\]</span></p>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/logo.png" class="slide-logo"></p>
