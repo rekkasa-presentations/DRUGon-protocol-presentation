@@ -32,21 +32,21 @@
     "href": "index.html#μέθοδοι",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Μέθοδοι",
-    "text": "Μέθοδοι\n\n\n\nSelf-controlled case series (SCCS)\n\n\n\n\nSelf-controlled case series design. Source: Book of OHDSI, section 12.5"
+    "text": "Μέθοδοι\n\n\n\nSelf-controlled case series (SCCS)\n\n\n\n\nSelf-controlled case series design. Πηγή: Book of OHDSI, section 12.5"
   },
   {
     "objectID": "index.html#μέθοδοι-1",
     "href": "index.html#μέθοδοι-1",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Μέθοδοι",
-    "text": "Μέθοδοι\n\n\n\nSelf-controlled cohort (SCC) design\n\n\n\n\nSelf-controlled cohort design. Source: Book of OHDSI, section 12.2"
+    "text": "Μέθοδοι\n\n\n\nSelf-controlled cohort (SCC) design\n\n\n\n\nSelf-controlled cohort design. Πηγή: Book of OHDSI, section 12.2"
   },
   {
     "objectID": "index.html#μέθοδοι-2",
     "href": "index.html#μέθοδοι-2",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Μέθοδοι",
-    "text": "Μέθοδοι\n\n\n\nCase-control design\n\n\n\n\nCase-control design. Source: Book of OHDSI, section 12.3"
+    "text": "Μέθοδοι\n\n\n\nCase-control design\n\n\n\n\nCase-control design. Πηγή: Book of OHDSI, section 12.3"
   },
   {
     "objectID": "index.html#σύγκριση",
@@ -81,18 +81,25 @@
     "href": "index.html#σύγκριση-έγκαιρη-σήμανση",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Σύγκριση — έγκαιρη σήμανση",
-    "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\n\nΧρήση συνόλου αναφοράς που περιλαμβάνει τις ημερομηνίες αλλαγής στο φύλλο οδηγιών\nΕπιλέγουμε χρονικό περιθώριο \\(t_{\\text{lag}}\\)\n\n\\[\nLAUC_k(t_{\\text{lag}}) =\n\\frac{1}{n_{pc}n_{nc}}\n\\sum_{i=1}^{n_{pc}}\\sum_{j=1}^{n_{nc}}\n\\psi\\Big(s_{k;o^+_i}(t_i^0-t_{\\text{lag}}), s_{k;o^-_j}(t_i^0-t_{\\text{lag}})\\Big)\n\\]"
+    "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\n\n\nΠηγή: Harpaz, Rave, et al. “Toward multimodal signal detection of adverse drug reactions.” Journal of biomedical informatics 76 (2017): 41-49."
   },
   {
     "objectID": "index.html#σύγκριση-έγκαιρη-σήμανση-1",
     "href": "index.html#σύγκριση-έγκαιρη-σήμανση-1",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Σύγκριση — έγκαιρη σήμανση",
-    "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\nΤο MLT2D αξιολογεί την πρωιμότητα της μεθόδου ανίχνευσης ΣΦΕ για ένα προκαθορισμένο επίπεδο ανοχής ψευδώς θετικών αποτελεσμάτων \\(\\tau\\).\n\n\\[\nMLT2D_k(\\tau) =\n\\frac{1}{n_{pc}}\n\\sum_{i=1}^{n_{pc}}\nt_{\\text{lag}}(\\tau;k,o_i^+)\n\\]"
+    "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\n\nΧρήση συνόλου αναφοράς που περιλαμβάνει τις ημερομηνίες αλλαγής στο φύλλο οδηγιών\nΕπιλέγουμε χρονικό περιθώριο \\(t_{\\text{lag}}\\)\n\n\\[\nLAUC_k(t_{\\text{lag}}) =\n\\frac{1}{n_{pc}n_{nc}}\n\\sum_{i=1}^{n_{pc}}\\sum_{j=1}^{n_{nc}}\n\\psi\\Big(s_{k;o^+_i}(t_i^0-t_{\\text{lag}}), s_{k;o^-_j}(t_i^0-t_{\\text{lag}})\\Big)\n\\]"
   },
   {
     "objectID": "index.html#σύγκριση-έγκαιρη-σήμανση-2",
     "href": "index.html#σύγκριση-έγκαιρη-σήμανση-2",
+    "title": "DRUGon: Πρωτόκολλο μελέτης",
+    "section": "Σύγκριση — έγκαιρη σήμανση",
+    "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\nΤο MLT2D αξιολογεί την πρωιμότητα της μεθόδου ανίχνευσης ΣΦΕ για ένα προκαθορισμένο επίπεδο ανοχής ψευδώς θετικών αποτελεσμάτων \\(\\tau\\).\n\n\\[\nMLT2D_k(\\tau) =\n\\frac{1}{n_{pc}}\n\\sum_{i=1}^{n_{pc}}\nt_{\\text{lag}}(\\tau;k,o_i^+)\n\\]"
+  },
+  {
+    "objectID": "index.html#σύγκριση-έγκαιρη-σήμανση-3",
+    "href": "index.html#σύγκριση-έγκαιρη-σήμανση-3",
     "title": "DRUGon: Πρωτόκολλο μελέτης",
     "section": "Σύγκριση — έγκαιρη σήμανση",
     "text": "Σύγκριση — έγκαιρη σήμανση\n\n\n\nόπου \\(t_{\\text{lag}}(\\tau;k,o_i^+)\\)  είναι το μεγαλύτερο \\(t_{\\text{lag}}\\) για τον θετικό έλεγχο \\(o^+_i\\) για το οποίο\n\\[\n\\frac{1}{n_{nc}}\n\\sum_{j=1}^{n_{nc}}\n\\psi\\Big( s_{k;o^+_i}(t_i^0-t_{\\text{lag}}), s_{k;o^-_j}(t_i^0-t_{\\text{lag}}) \\Big) \\geq 1 - \\tau\n\\]"

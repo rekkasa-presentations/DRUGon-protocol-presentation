@@ -68,7 +68,7 @@ mainfont: Comfortaa
 
 \
 
-![Self-controlled case series design. Source: *Book of OHDSI*, section 12.5](images/selfControlledCaseSeries.png)
+![Self-controlled case series design. Πηγή: *Book of OHDSI*, section 12.5](images/selfControlledCaseSeries.png)
 
 ## Μέθοδοι
 
@@ -78,7 +78,7 @@ mainfont: Comfortaa
 
 \
 
-![Self-controlled cohort design. Source: *Book of OHDSI*, section 12.2](images/selfControlledCohort.png)
+![Self-controlled cohort design. Πηγή: *Book of OHDSI*, section 12.2](images/selfControlledCohort.png)
 
 
 ## Μέθοδοι
@@ -89,7 +89,7 @@ mainfont: Comfortaa
 
 \
 
-![Case-control design. Source: *Book of OHDSI*, section 12.3](images/caseControl.png)
+![Case-control design. Πηγή: *Book of OHDSI*, section 12.3](images/caseControl.png)
 
 
 
@@ -143,6 +143,12 @@ $$
        0, &\quad x<y \\
      \end{cases}
 $$
+
+## Σύγκριση --- έγκαιρη σήμανση {.nostretch}
+
+\
+
+![Πηγή: Harpaz, Rave, et al. "Toward multimodal signal detection of adverse drug reactions." *Journal of biomedical informatics* 76 (2017): 41-49.](images/time_component.png){width="60%"}
 
 ## Σύγκριση --- έγκαιρη σήμανση
 
